@@ -1,10 +1,11 @@
 import React from 'react';
+import Link from 'next/link';
 
 const BantuLinkLanding: React.FC = () => {
   return (
     <div className="min-h-screen relative overflow-hidden">
       {/* Background Image with Fade Overlay */}
-      <div 
+      <div
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: 'url(/bg.jpg)',
@@ -15,54 +16,54 @@ const BantuLinkLanding: React.FC = () => {
       >
         <div className="absolute "></div>
       </div>
-      
+
 
       {/* Content */}
       <div className="relative z-10 flex flex-col min-h-screen">
         {/* Navigation */}
         <nav className="px-6 py-6 md:px-12">
           <div className="max-w-7xl mx-auto flex items-center justify-between">
-            <img 
-                src="/img.jpg" 
-                alt="BantuLink Logo" 
-                className="h-18 md:h-20 w-auto"
-              />
-            
-         
-      
+            <img
+              src="/img.jpg"
+              alt="BantuLink Logo"
+              className="h-18 md:h-20 w-auto"
+            />
+
+
+
 
             {/* Desktop Menu */}
             <div className="hidden lg:flex items-center gap-8 text-base">
-              <a 
-                href="http://bantulink.com/launches" 
+              <a
+                href="http://bantulink.com/launches"
                 className="text-gray-900 hover:text-orange-500  font-bold  transition-colors"
               >
                 Features
               </a>
               <span className="text-gray-300">|</span>
-              <a 
-                href="https://www.bantulink.com/" 
+              <a
+                href="https://www.bantulink.com/"
                 className="text-gray-900 hover:text-orange-500 font-bold  transition-colors"
               >
                 Pricing
               </a>
               <span className="text-gray-900">|</span>
-              <a 
-                href="https://www.bantulink.com/" 
-                className="text-gray-900 hover:text-orange-500 font-bold  transition-colors"
+              <Link
+                href="/contact"
+                className="text-gray-900 hover:text-orange-500 font-bold transition-colors"
               >
                 Contact
-              </a>
+              </Link>
               <span className="text-gray-900">|</span>
-              <a 
-                href="https://www.bantulink.com/auth" 
+              <a
+                href="https://www.bantulink.com/auth"
                 className="text-gray-900 hover:text-orange-500  font-bold transition-colors"
               >
                 Login
               </a>
               <span className="text-gray-900">|</span>
-              <a 
-                href="http://bantulink.com/launches" 
+              <a
+                href="http://bantulink.com/launches"
                 className="bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded-lg transition-all shadow-lg hover:shadow-xl"
               >
                 Start your trial
@@ -71,7 +72,7 @@ const BantuLinkLanding: React.FC = () => {
 
             {/* Mobile Menu Button */}
             <div className="lg:hidden">
-              <a 
+              <a
                 href="https://www.bantulink.com/"
                 className="bg--500 hover:bg-red-600 text-white font-semibold px-4 py-2 rounded-lg text-sm"
               >
@@ -95,7 +96,7 @@ const BantuLinkLanding: React.FC = () => {
 
             {/* Subheading */}
             <p className="text-xl md:text-2xl text-gray-900 max-w-3xl mx-auto mb-12 leading-relaxed">
-              BantuLink is your solution for social media management in Uganda. 
+              BantuLink is your solution for social media management in Uganda.
               Schedule, analyze, and track everything on one platform.
             </p>
 
@@ -112,8 +113,8 @@ const BantuLinkLanding: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </a>
-              
-             
+
+
             </div>
 
             {/* Additional Info */}
