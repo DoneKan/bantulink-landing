@@ -65,10 +65,10 @@ export default function ContactPage() {
             <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
               <Mail className="text-blue-600" size={24} />
             </div>
-            <h3 className="text-lg font-semibold mb-2">Email Us</h3>
+            <h3 className="text-gray-900 mb-2">Email Us</h3>
             <p className="text-gray-600 mb-2">Our team is here to help</p>
             <a href="mailto:info@bantulink.com" className="text-blue-600 hover:text-blue-700 font-medium">
-              info@bantulink.com
+              applytopaulette@gmail.com
             </a>
           </div>
 
@@ -76,10 +76,10 @@ export default function ContactPage() {
             <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
               <Phone className="text-blue-600" size={24} />
             </div>
-            <h3 className="text-lg font-semibold mb-2">Call Us</h3>
-            <p className="text-gray-600 mb-2">Mon-Fri from 8am to 5pm</p>
+            <h3 className="text-gray-900 mb-2">Call Us</h3>
+            <p className="text-gray-900 mb-2">Mon-Fri from 8am to 5pm</p>
             <a href="tel:+256700000000" className="text-blue-600 hover:text-blue-700 font-medium">
-              +256 700 000 000
+              +256 772612621
             </a>
           </div>
 
@@ -87,7 +87,7 @@ export default function ContactPage() {
             <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
               <MapPin className="text-blue-600" size={24} />
             </div>
-            <h3 className="text-lg font-semibold mb-2">Visit Us</h3>
+            <h3 className="text-gray-900 mb-2">Visit Us</h3>
             <p className="text-gray-600 mb-2">Come say hello at our office</p>
             <p className="text-blue-600 font-medium">
               Kampala, Uganda
