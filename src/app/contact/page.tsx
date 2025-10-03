@@ -53,7 +53,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="text-xl text-center text-white max-w-2xl mx-auto drop-shadow-md">
-            Have questions about Bantulink? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+            Have questions about Bantulink? We&apos;d love to hear from you. Send us a message and we&apos;ll respond as soon as possible.
           </p>
         </div>
       </div>
@@ -196,7 +196,7 @@ export default function ContactPage() {
 
               {status === 'success' && (
                 <div className="bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-lg">
-                  Thank you! Your message has been sent successfully. We'll get back to you soon.
+                  Thank you! Your message has been sent successfully. We&apos;ll get back to you soon.
                 </div>
               )}
             </div>
